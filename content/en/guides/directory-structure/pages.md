@@ -136,7 +136,7 @@ If you've defined a file named \_slug.vue inside a folder called \_book you can 
 
 ### asyncData
 
-asyncData is called every time before loading the component. It can be asynchronous and receives the context as an argument. The returned object will be merged with your data object.
+asyncData is called every time before loading the page. It can be asynchronous and receives the context as an argument. The returned object will be merged with your data object.
 
 ```js{}[pages/index.vue]
 export default {
